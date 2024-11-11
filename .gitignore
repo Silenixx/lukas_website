@@ -1,0 +1,24 @@
+# Ignorer les fichiers générés pour Symfony
+symfony/var/
+symfony/vendor/
+symfony/.env.local
+symfony/.env.*.local
+symfony/public/bundles/
+symfony/phpunit.xml
+symfony/phpunit.xml.dist
+symfony/node_modules/
+
+# Ignorer les fichiers générés pour Next.js
+nextjs/node_modules/
+nextjs/.next/
+nextjs/.env.local
+nextjs/.env.*.local
+nextjs/out/
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers d'éditeurs courants
+.vscode/
+.idea/
