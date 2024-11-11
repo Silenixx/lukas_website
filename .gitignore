@@ -1,19 +1,19 @@
 # Ignorer les fichiers générés pour Symfony
-symfony/var/
-symfony/vendor/
-symfony/.env.local
-symfony/.env.*.local
-symfony/public/bundles/
-symfony/phpunit.xml
-symfony/phpunit.xml.dist
-symfony/node_modules/
+lukas_symfony_website/var/
+lukas_symfony_website/vendor/
+lukas_symfony_website/.env.local
+lukas_symfony_website/.env.*.local
+lukas_symfony_website/public/bundles/
+lukas_symfony_website/phpunit.xml
+lukas_symfony_website/phpunit.xml.dist
+lukas_symfony_website/node_modules/
 
 # Ignorer les fichiers générés pour Next.js
-nextjs/node_modules/
-nextjs/.next/
-nextjs/.env.local
-nextjs/.env.*.local
-nextjs/out/
+lukas_next_react_website/node_modules/
+lukas_next_react_website/.next/
+lukas_next_react_website/.env.local
+lukas_next_react_website/.env.*.local
+lukas_next_react_website/out/
 
 # Ignorer les fichiers système
 .DS_Store
