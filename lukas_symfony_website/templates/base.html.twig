@@ -12,7 +12,7 @@
         <!-- TITLE -->
 		<title> Dashplex – Symfony Bootstrap 5 Admin & Dashboard Template </title>
         {% block stylesheets %}
-        {{ include('layouts/styles.html.twig') }}
+        
     
         {% endblock %}
 
@@ -28,13 +28,6 @@
         <!-- PAGE -->
         <div class="page">
 
-            <!-- MAIN-HEADER -->
-            {{ include('layouts/main-header.html.twig') }}
-            <!-- MAIN-HEADER CLOSED -->
-            
-            <!-- APP-SIDEBAR -->
-            {{ include('layouts/main-sidebar.html.twig') }}
-            <!-- APP-SIDEBAR CLOSED-->
 
             <!-- MAIN CONTENT -->
             <div class="main-content side-content pt-0">
@@ -51,23 +44,11 @@
                     </div>
                 </div>
             </div>
-            <!-- MAIN CONTENT CLOSED-->
             
-            <!-- COUNTRY-SELECTOR-MODAL -->
-            {{ include('layouts/modal.html.twig') }}
-            <!-- END COUNTRY-SELECTOR-MODAL -->
-
-            <!-- RIGHT-SIDEBAR  -->
-            {{ include('layouts/right-sidebar.html.twig') }}
-            <!-- END RIGHT-SIDEBAR -->
-
-            <!-- MAIN-FOOTER -->
-            {{ include('layouts/main-footer.html.twig') }}
-            <!-- MAIN-FOOTER CLOSED-->
         </div>
 
         {% block javascripts %}    
-        {{ include('layouts/scripts.html.twig') }}
+
         
         {% endblock %} 
         
